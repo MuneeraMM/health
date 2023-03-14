@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Login page</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="register.css">
+</head>
+  <body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-12"></div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+
+                <form id="log" action="../login/login.html">
+                    <img class="rounded mx-auto d-block" src="patient(1).png" alt="logo">
+                    <h1>Create New Account</h1>
+                    <p>Enter your Credentials Below</p>
+
+                    <div class="form-group email-field">
+                        <label for="email">Email <i class='bx bxs-star star'></i></label>
+                        <input type="email" class="form-control email" placeholder="Email">
+                    
+                        <span class="error email-error">
+                            <i class='bx bxs-x-circle error-icon'></i>
+                            <p class="error-text">Please enter a valid email address..!</p>
+                        </span>
+                    </div>
+
+                    <div class="form-group create-password">
+                        <label for="password">Password <i class='bx bxs-star star'></i></label>
+                        <input type="password" class="form-control password" placeholder="Password">
+                        <!-- <i class='bx bxs-hide show-hide float-right'></i>  -->
+
+                        <span class="error password-error ">
+                            <i class='bx bxs-x-circle error-icon'></i>
+                            <p class="error-text pass">Please enter atleast 10 character with number, uppercase, lowercase and special character.</p>
+                        </span>
+                    </div>
+                    <div class="form-group confirm-password">
+                        <label for="password">Confirm Password <i class='bx bxs-star star'></i></label>
+                        <input type="password" class="form-control cpassword" placeholder="Confirm Password">
+                        <!-- <i class='bx bxs-hide show-hide'></i>  -->
+
+                        <span class="error cpassword-error">
+                            <i class='bx bxs-x-circle error-icon'></i>
+                            <p class="error-text">Password does not match.</p>
+                        </span>
+                    </div>
+                    <!-- <div class="checkbox">
+                        <label for=""><input type="checkbox">Remember me</label>
+                    </div> -->
+                    <button type="submit" class="btn btn-success btn-block">Register</button>
+                </form>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12"></div>
+
+        </div>
+    </div>
+
+    <script src="register.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
